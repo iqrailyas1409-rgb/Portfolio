@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iqra Iliyas | Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f8f9fc;
+    color:#333;
+}
+
+/* NAVBAR */
+
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#4c1d95;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#fbcfe8;
+}
+
+/* HEADER */
+
+header{
+    background:linear-gradient(135deg,#7c3aed,#ec4899);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    margin-top:15px;
+    font-size:45px;
+}
+
+.lead{
+    margin-top:10px;
+    font-size:18px;
+}
+
+/* SLIDER */
+
+.slider{
+    overflow:hidden;
+    background:white;
+    padding:20px 0;
+}
+
+.slide-track{
+    display:flex;
+    width:calc(250px * 8);
+    animation:scroll 18s linear infinite;
+}
+
+.slide{
+    width:250px;
+    margin:0 15px;
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0px 4px 12px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+@keyframes scroll{
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(-50%);
+    }
+}
+
+/* SECTION */
+
+section{
+    width:90%;
+    max-width:1000px;
+    margin:25px auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0px 4px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+section:hover{
+    transform:translateY(-5px);
+}
+
+h2{
+    color:#7c3aed;
+    margin-bottom:15px;
+    border-bottom:3px solid #ec4899;
+    padding-bottom:10px;
+}
+
+p{
+    line-height:1.8;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:10px;
+}
+
+/* BUTTON */
+
+.btn{
+    display:inline-block;
+    background:#7c3aed;
+    color:white;
+    padding:12px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    margin-top:15px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#ec4899;
+}
+
+/* FOOTER */
+
+footer{
+    background:#4c1d95;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+header h1{
+    font-size:32px;
+}
+
+nav a{
+    display:inline-block;
+    margin:8px;
+}
+
+section{
+    width:95%;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#resume">Resume</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header>
+
+<h1>Iqra Iliyas</h1>
+
+<p class="lead">
+BCA Student | Aspiring Software Developer<br>
+C • C++ • Java • HTML • CSS
+</p>
+
+<a href="https://www.linkedin.com/in/iqra-iliyas" target="_blank" class="btn">
+View LinkedIn
+</a>
+
+</header>
+
+<div class="slider">
+    <div class="slide-track">
+
+        <div class="slide">
+            <h3>BCA Student</h3>
+            <p>Integral University</p>
+        </div>
+
+        <div class="slide">
+            <h3>C & C++</h3>
+            <p>Programming Skills</p>
+        </div>
+
+        <div class="slide">
+            <h3>Java</h3>
+            <p>Core Java Learner</p>
+        </div>
+
+        <div class="slide">
+            <h3>Python</h3>
+            <p>Data Science</p>
+        </div>
+
+
+        <div class="slide">
+            <h3>HTML & CSS</h3>
+            <p>Frontend Development</p>
+        </div>
+
+        <div class="slide">
+            <h3>BCA Student</h3>
+            <p>Integral University</p>
+        </div>
+
+        <div class="slide">
+            <h3>C & C++</h3>
+            <p>Programming Skills</p>
+        </div>
+
+        <div class="slide">
+            <h3>Java</h3>
+            <p>Core Java Learner</p>
+        </div>
+        <div class=""slide>
+            <h3>Python</h3>
+            <p>Data Science</p>
+        </div>
+
+        <div class="slide">
+            <h3>HTML & CSS</h3>
+            <p>Frontend Development</p>
+        </div>
+
+    </div>
+</div>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am Iqra Iliyas, currently pursuing a Bachelor of Computer Applications (BCA) from Integral University, Lucknow. I am passionate about software development and continuously improving my technical skills. I have knowledge of C, C++, Java, HTML, CSS and basic web development. My goal is to become a successful software developer and contribute to innovative projects.
+</p>
+
+</section>
+
+<section id="education">
+
+<h2>Education</h2>
+
+<p>
+<strong>Bachelor of Computer Applications (BCA)</strong><br>
+Integral University, Lucknow<br>
+2024 – 2027
+</p>
+
+</section>
+
+<section id="resume">
+
+<h2>Resume</h2>
+
+<p>
+Click below to view or download my resume.
+</p>
+
+<a href="Resume.pdf" target="_blank" class="btn">
+Download Resume
+</a>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<ul>
+<li>C Programming</li>
+<li>C++ Programming</li>
+<li>Java</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>MS Word</li>
+<li>PowerPoint</li>
+<li>Problem Solving</li>
+</ul>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<h3>Personal Portfolio Website</h3>
+
+<p>
+Designed and developed a responsive personal portfolio website using HTML and CSS to showcase my skills, education and projects.
+</p>
+
+</section>
+
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<p><strong>Email:</strong> iqrailyas1409@gmail.com</p>
+
+<br>
+
+<p><strong>Phone:</strong> +91 7991909370</p>
+
+<br>
+
+<p>
+<strong>LinkedIn:</strong><br>
+<a href="https://www.linkedin.com/in/iqra-iliyas" target="_blank">
+linkedin.com/in/iqra-iliyas
+</a>
+</p>
+
+</section>
+
+<footer>
+© 2026 Iqra Iliyas | Portfolio Website
+</footer>
+
+</body>
+</html>
