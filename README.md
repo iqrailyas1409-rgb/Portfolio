@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Iqra Ilyas</h1>
+<h1 align="center">Hi 👋, I'm Iqra Iliyas</h1>
 
 <h3 align="center">BCA Student | Aspiring Software Developer | Tech Enthusiast</h3>
 
