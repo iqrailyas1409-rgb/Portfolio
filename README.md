@@ -84,7 +84,7 @@ https://iqrailyas1409-rgb.github.io/Portfolio/
 https://github.com/iqrailyas1409-rgb
 
 ### LinkedIn
-(Add your LinkedIn Profile Link Here)
+https://www.linkedin.com/in/iqra-iliyas
 
 ---
 
